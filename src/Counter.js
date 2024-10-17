@@ -26,7 +26,6 @@ const Counter = () => {
         <button onClick={() => dispatch({ type: "decrement" })}>
           decrement{" "}
         </button>
-        <button onClick={() => dispatch({ type: "reset" })}>reset </button>
       </div>
     </div>
   );
